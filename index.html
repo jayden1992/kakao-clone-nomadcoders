@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kakao Talk</title>
+    <script
+      src="https://kit.fontawesome.com/2305a533a9.js"
+      crossorigin="anonymous"
+      defer
+    >
+      // Font awesome
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Status-bar -->
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="login_page">
+      <h1 class="login_page__title">Welcome to Kakao Talk</h1>
+      <p class="login_page__description">
+        If you have a Kakao Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form class="login_page__login form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="text" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+    </form>
+    <a href="#" class="login_page__find">Find Kakao Account or Password</a>
+  </body>
+</html>
