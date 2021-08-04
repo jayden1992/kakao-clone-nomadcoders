@@ -1,0 +1,52 @@
+#status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+.status-bar__column {
+  width: 33%;
+}
+/* "CSS Hack" 시계를 center 에 놓고 양쪽 width 가 달라도 좌우 정렬가능 */
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+/* .status-bar__column:first-child 선택자는 
+span의 No service와, 아이콘이 같이 마진을 주기때문에
+span만 따로 선택함 */
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar__column .fa-battery-quarter {
+  margin: 0px 8px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+/* "CSS Hack" 시계를 center 에 놓고 양쪽 width 가 달라도 좌우 정렬가능 */
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+/* .status-bar__column:first-child 선택자는 
+span의 No service와, 아이콘이 같이 마진을 주기때문에
+span만 따로 선택함 */
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar__column .fa-battery-quarter {
+  margin: 0px 8px;
+}
