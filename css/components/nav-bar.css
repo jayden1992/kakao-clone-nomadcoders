@@ -1,0 +1,46 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar__menu {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__menu__link {
+  color: #2e363e;
+}
+.navbar__menu__item:hover {
+  transform: scale(1.3);
+}
+.navbar__menu__newchat {
+  background-color: #ff6228;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.navbar__menu__notification {
+  background-color: #ff6228;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  right: 7px;
+  cursor: pointer;
+}

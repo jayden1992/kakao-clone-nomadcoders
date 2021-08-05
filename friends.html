@@ -1,1 +1,77 @@
-this is friends html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kakao Talk</title>
+    <script
+      src="https://kit.fontawesome.com/2305a533a9.js"
+      crossorigin="anonymous"
+      defer
+    >
+      // Font awesome
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Status-bar -->
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <!-- fa-xx 아이콘 사이즈 변경 -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!-- Nav-bar -->
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">
+          <a class="navbar__menu__link" href="friends.html">
+            <i class="fas fa-users"></i
+          ></a>
+        </li>
+        <li class="navbar__menu__item">
+          <a class="navbar__menu__link" href="#"
+            ><i class="far fa-comments"></i
+          ></a>
+          <span class="navbar__menu__newchat">1</span>
+        </li>
+        <li class="navbar__menu__item">
+          <a class="navbar__menu__link" href="#"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="navbar__menu__item">
+          <a class="navbar__menu__link" href="#"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+          <span class="navbar__menu__notification"></span>
+        </li>
+      </ul>
+    </nav>
+    <!-- Header -->
+    <header class="screen__header">
+      <h1 class="screen__header__title">Friends</h1>
+      <div>
+        <span class="screen__header__items"
+          ><a href=""><i class="fas fa-search"></i></a
+        ></span>
+        <span class="screen__header__items"
+          ><a href=""><i class="fas fa-music"></i></a
+        ></span>
+        <span class="screen__header__items"
+          ><a href=""><i class="fas fa-cog"></i></a
+        ></span>
+      </div>
+    </header>
+  </body>
+</html>
