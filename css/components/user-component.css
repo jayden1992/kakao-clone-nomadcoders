@@ -1,0 +1,28 @@
+.user-component {
+  display: flex;
+}
+
+.user-component .user-component__column:first-child {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.user-component__name {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-component__status {
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
